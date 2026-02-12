@@ -13,3 +13,7 @@ for i in lista :
     multiplicacion *= i
 
 print(f'\nmultiplicacion elementos lista : {multiplicacion}')
+
+
+lista.append(4)
+print(f'\nla longitud actualizada es : {len(lista)}')
